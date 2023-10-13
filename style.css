@@ -51,6 +51,10 @@ button {
   border: none;
   cursor: pointer;
 }
+select{
+  display:flex;
+}
+
 
 button:hover {
   background-color: #555;
