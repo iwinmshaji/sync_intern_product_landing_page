@@ -11,13 +11,16 @@ p {
 
 body {
   font-family: Arial, sans-serif;
+  background-size:100%;
   background-color: #f4f4f4;
 }
+
 
 header {
   background-color: #333;
   color: #fff;
   text-align: center;
+  margin-right:10px;
   padding: 20px 0;
 }
 
