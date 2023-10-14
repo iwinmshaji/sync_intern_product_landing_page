@@ -21,9 +21,7 @@ header {
   background-color: #00000;
   color: #fff;
   text-align: center;
-  margin-right:40px;
-  padding: 20px 0;
-}
+
 
 .container {
   display: flex;
