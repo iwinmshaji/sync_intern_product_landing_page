@@ -12,18 +12,16 @@ p {
 
 body {
   font-family: Arial, sans-serif;
-  background-size:100%;
+  background-size:101%;
   background-color: #f4f4f4;
 }
 
 
 header {
-  background-color: #0000000;
+
   color: #fff;
   text-align: center;
-  margin-right:10px;
-  padding: 20px 0;
-}
+
 
 .container {
   display: flex;
@@ -35,7 +33,7 @@ header {
   flex: 1;
   padding: 20px;
   background-color: #000000;
-  border: 1px solid #ddd;
+  border: 1px solid #dddd;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +62,7 @@ button:hover {
 section {
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
 }
