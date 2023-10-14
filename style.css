@@ -35,7 +35,7 @@ header {
   flex: 1;
   padding: 20px;
   background-color: #000000;
-  border: 1px solid #ddd;
+  border: 1px solid #dddd;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
