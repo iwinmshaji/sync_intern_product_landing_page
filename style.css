@@ -23,7 +23,7 @@ body {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding-left: 6vw;
+  padding-left: 8vw;
   padding-right: 4vw;
   font-size: 20px;
 }
@@ -47,7 +47,7 @@ body {
   color: white;
 }
 .NavigationBar #Nav-Options a:hover{
-  
+  border-bottom:3px white solid;
 }
 
 
