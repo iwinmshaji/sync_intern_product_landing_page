@@ -1,25 +1,55 @@
-body,
-h1,
-h3,
-h5,
-h2,
-h4,
-ul,
-p {
+*{
   margin: 0;
-  margin-right: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+html{
+  font-size: 62.5%;
+}
 body {
   font-family: Arial, sans-serif;
-  background-size:101%;
   background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  padding-top: 7rem;
 }
 
-
-
-  text-align: center;
+.NavigationBar{
+  background-color: black;
+  display: flex;
+  opacity: 0.95;
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 8vw;
+  padding-right: 4vw;
+  font-size: 20px;
+}
+.NavigationBar .left-side{
+  padding-top: 1.2rem;
+}
+.NavigationBar img{
+  mix-blend-mode: lighten;
+  width: 4.5rem;
+  height: 4rem;
+}
+.NavigationBar #Nav-Options{
+  display: flex;
+  padding-top: 1.7rem;
+  flex-basis: 45%;
+  justify-content: space-around;
+  list-style: none;
+}
+.NavigationBar #Nav-Options a{
+  text-decoration: none;
+  color: white;
+}
+.NavigationBar #Nav-Options a:hover{
+  border-bottom:3px white solid;
+}
 
 
 .container {
