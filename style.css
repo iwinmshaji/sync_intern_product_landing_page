@@ -10,7 +10,7 @@ p {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #7d7d7d;
 }
 
 header {
@@ -18,6 +18,13 @@ header {
   color: #fff;
   text-align: center;
   padding: 20px 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding : 20px;
+  margin-bottom: 10px;
+}
+
+header h1{
+  margin-bottom: 10px;
 }
 
 .container {
@@ -32,6 +39,12 @@ header {
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column pre h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -39,24 +52,48 @@ img {
   height: auto;
 }
 
+#price{
+  font-size: 40px;
+}
+
+/* #po{
+  font-size: 40px;
+} */
+
+#po{
+  font-size:40px;
+}
+
+
+
 button {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
+  font-size: 40px;
+  margin-left:0;
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #f0fc00;
+  color:black;
+  border:1px solid black;
+}
+
+#PRODUCT{
+  margin-bottom: 10px;
 }
 
 section {
-  padding: 20px;
+  padding: 30px;
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
+
 }
 
 footer {
