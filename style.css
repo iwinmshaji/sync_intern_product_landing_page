@@ -1,31 +1,58 @@
-/* Reset some default styles for better consistency */
-body,
-h1,
-h2,
-ul,
-p {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+html{
+  font-size: 62.5%;
+}
 body {
   font-family: Arial, sans-serif;
-  background-color: #7d7d7d;
+
+=======
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  padding-top: 7rem;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding : 20px;
-  margin-bottom: 10px;
+.NavigationBar{
+  background-color: black;
+  display: flex;
+  opacity: 0.95;
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 8vw;
+  padding-right: 4vw;
+  font-size: 20px;
+}
+.NavigationBar .left-side{
+  padding-top: 1.2rem;
+}
+.NavigationBar img{
+  mix-blend-mode: lighten;
+  width: 4.5rem;
+  height: 4rem;
+}
+.NavigationBar #Nav-Options{
+  display: flex;
+  padding-top: 1.7rem;
+  flex-basis: 45%;
+  justify-content: space-around;
+  list-style: none;
+}
+.NavigationBar #Nav-Options a{
+  text-decoration: none;
+  color: white;
+}
+.NavigationBar #Nav-Options a:hover{
+  border-bottom:3px white solid;
 }
 
-header h1{
-  margin-bottom: 10px;
-}
 
 .container {
   display: flex;
@@ -45,11 +72,13 @@ header h1{
 
 .column pre h2{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 img {
   max-width: 100%;
   height: auto;
+  flex:box;
 }
 
 #price{
@@ -67,7 +96,7 @@ img {
 
 
 button {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -76,6 +105,10 @@ button {
   font-size: 40px;
   margin-left:0;
 }
+select{
+  display:flex;
+}
+
 
 button:hover {
   background-color: #f0fc00;
@@ -90,7 +123,7 @@ button:hover {
 section {
   padding: 30px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
 
