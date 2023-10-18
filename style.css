@@ -8,6 +8,8 @@ html{
 }
 body {
   font-family: Arial, sans-serif;
+
+=======
   background-color: #f4f4f4;
   width: 100%;
   height: 100%;
@@ -61,9 +63,16 @@ body {
 .column {
   flex: 1;
   padding: 20px;
-  background-color: #000000;
-  border: 1px solid #dddd;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column pre h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 img {
@@ -72,12 +81,29 @@ img {
   flex:box;
 }
 
+#price{
+  font-size: 40px;
+}
+
+/* #po{
+  font-size: 40px;
+} */
+
+#po{
+  font-size:40px;
+}
+
+
+
 button {
   background-color: #000000;
   color: #fff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
+  font-size: 40px;
+  margin-left:0;
 }
 select{
   display:flex;
@@ -85,15 +111,22 @@ select{
 
 
 button:hover {
-  background-color: #555;
+  background-color: #f0fc00;
+  color:black;
+  border:1px solid black;
+}
+
+#PRODUCT{
+  margin-bottom: 10px;
 }
 
 section {
-  padding: 20px;
+  padding: 30px;
   background-color: #fff;
   border: 1px solid #dd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
+
 }
 
 footer {
