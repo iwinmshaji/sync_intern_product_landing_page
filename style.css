@@ -6,10 +6,22 @@
 html{
   font-size: 62.5%;
 }
+header h1{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.4rem;
+}
+header p{
+  font-size: 1.4rem;
+  padding: .5rem;
+}
+p{
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
 body {
   font-family: Arial, sans-serif;
-
-=======
   background-color: #f4f4f4;
   width: 100%;
   height: 100%;
@@ -72,7 +84,6 @@ body {
 
 .column pre h2{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 img {
@@ -123,10 +134,25 @@ button:hover {
 section {
   padding: 30px;
   background-color: #fff;
-  border: 1px solid #dd;
+  border: 1px solid #dddddd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
+}
+.review{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.review h2{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #6c9978;
+}
+.review h3{
+  font-size: 1.4rem;
+  font-weight: 100;
+  padding-top: 1rem;
 }
 
 footer {
